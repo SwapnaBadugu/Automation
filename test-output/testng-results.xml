@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="7" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-15T23:27:23 EDT" name="Suite1" finished-at="2022-03-15T23:27:43 EDT" duration-ms="19808">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestNGAssertions.LaunchBrowser()[pri:1, instance:testNGFramework.TestNGAssertions@5ab956d7]" name="LaunchBrowser" class="testNGFramework.TestNGAssertions"/>
+        <method signature="TestNGAssertions.LoginTest()[pri:2, instance:testNGFramework.TestNGAssertions@5ab956d7]" name="LoginTest" class="testNGFramework.TestNGAssertions"/>
+        <method signature="TestNGAssertions.logout()[pri:5, instance:testNGFramework.TestNGAssertions@5ab956d7]" name="logout" class="testNGFramework.TestNGAssertions"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2022-03-15T23:27:23 EDT" name="Test1" finished-at="2022-03-15T23:27:43 EDT" duration-ms="19808">
+      <class name="testNGFramework.TestNGAssertions">
+        <test-method is-config="true" signature="OrangeHRMTestSetUp()[pri:0, instance:testNGFramework.TestNGAssertions@5ab956d7]" started-at="2022-03-15T23:27:13 EDT" name="OrangeHRMTestSetUp" finished-at="2022-03-15T23:27:23 EDT" duration-ms="10628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHRMTestSetUp -->
+        <test-method signature="LaunchBrowser()[pri:1, instance:testNGFramework.TestNGAssertions@5ab956d7]" started-at="2022-03-15T23:27:23 EDT" name="LaunchBrowser" description="LaunchBrowser" finished-at="2022-03-15T23:27:30 EDT" duration-ms="6974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="LoginTest()[pri:2, instance:testNGFramework.TestNGAssertions@5ab956d7]" started-at="2022-03-15T23:27:30 EDT" name="LoginTest" description="LoginTest" finished-at="2022-03-15T23:27:39 EDT" duration-ms="8486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="logout()[pri:5, instance:testNGFramework.TestNGAssertions@5ab956d7]" started-at="2022-03-15T23:27:39 EDT" name="logout" description="logout" finished-at="2022-03-15T23:27:43 EDT" duration-ms="4315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testNGFramework.TestNGAssertions -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+  <suite started-at="2022-03-15T23:27:12 EDT" name="Suite2" finished-at="2022-03-15T23:27:12 EDT" duration-ms="163">
+    <groups>
+    </groups>
+    <test started-at="2022-03-15T23:27:12 EDT" name="Test2" finished-at="2022-03-15T23:27:12 EDT" duration-ms="163">
+      <class name="testNG.TestNgexecution">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:testNG.TestNgexecution@51e69659]" started-at="2022-03-15T23:27:12 EDT" name="BeforeSuite" finished-at="2022-03-15T23:27:12 EDT" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testNG.TestNgexecution@51e69659]" started-at="2022-03-15T23:27:12 EDT" name="LaunchBrowser" finished-at="2022-03-15T23:27:12 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:testNG.TestNgexecution@51e69659]" started-at="2022-03-15T23:27:12 EDT" name="BeforeClass" finished-at="2022-03-15T23:27:12 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testNG.TestNgexecution@51e69659]" started-at="2022-03-15T23:27:12 EDT" name="BeforeMethod" finished-at="2022-03-15T23:27:12 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Testmethod1()[pri:0, instance:testNG.TestNgexecution@51e69659]" started-at="2022-03-15T23:27:12 EDT" name="Testmethod1" finished-at="2022-03-15T23:27:12 EDT" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testmethod1 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testNG.TestNgexecution@51e69659]" started-at="2022-03-15T23:27:12 EDT" name="AfterMethod" finished-at="2022-03-15T23:27:12 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testNG.TestNgexecution@51e69659]" started-at="2022-03-15T23:27:12 EDT" name="BeforeMethod" finished-at="2022-03-15T23:27:12 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Testmethod2()[pri:0, instance:testNG.TestNgexecution@51e69659]" started-at="2022-03-15T23:27:12 EDT" name="Testmethod2" finished-at="2022-03-15T23:27:12 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testmethod2 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testNG.TestNgexecution@51e69659]" started-at="2022-03-15T23:27:12 EDT" name="AfterMethod" finished-at="2022-03-15T23:27:12 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:testNG.TestNgexecution@51e69659]" started-at="2022-03-15T23:27:12 EDT" name="AfterClass" finished-at="2022-03-15T23:27:12 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testNG.TestNgexecution@51e69659]" started-at="2022-03-15T23:27:12 EDT" name="CloseBrowser" finished-at="2022-03-15T23:27:12 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:testNG.TestNgexecution@51e69659]" started-at="2022-03-15T23:27:13 EDT" name="AfterSuite" finished-at="2022-03-15T23:27:13 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- testNG.TestNgexecution -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite2 -->
+  <suite started-at="2022-03-15T23:27:45 EDT" name="Suite3" finished-at="2022-03-15T23:27:45 EDT" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Suite3 -->
+</testng-results>
